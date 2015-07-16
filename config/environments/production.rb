@@ -76,4 +76,7 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+   # Required for Heroku
+   # Note set this to actual host
+  config.action_mailer.default_url_options = { host: 'https://jesse-moore.herokuapp.com/', port: 3000 }
 end
