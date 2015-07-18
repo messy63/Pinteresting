@@ -1,12 +1,12 @@
 @import url(//fonts.googleapis.com/css?family=Lato:400,700);
 
 $body-bg: #ecf0f1;
-$font-family-sans-serif:                'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-$navbar-height:                                        45px;
-$navbar-default-bg:                          white;
-$navbar-default-brand-color:      #c0392b;
-$brand-primary:                                    #c0392b;
-$jumbotron-bg:                                         white;
+$font-family-sans-serif: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$navbar-height: 45px;
+$navbar-default-bg: white;
+$navbar-default-brand-color: #c0392b;
+$brand-primary: #c0392b;
+$jumbotron-bg: white;
 
 @import 'bootstrap';
 
@@ -18,10 +18,10 @@ $jumbotron-bg:                                         white;
      font-weight: bold;
 }
 
-.navbar-header{
+.navbar-header {
 	font-size: 36px;
 }
 
-.checkbox input[type="checkbox"] {
+.checkbox input [type="checkbox"] {
 	margin-left: 0;
 }
