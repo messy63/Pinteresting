@@ -1,3 +1,5 @@
-@import 'bootstrap_and_customization';
-
-/*= require 'masonry/transitions' */
+/*
+ *= require_self
+ *= require 'masonry/transitions' 
+ *= require_tree .
+ */
