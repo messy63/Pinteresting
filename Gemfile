@@ -12,6 +12,7 @@ gem 'sdoc', '~> 0.4.0'
 gem "bootstrap-sass"
 gem 'devise'
 gem 'paperclip', '~> 4.2'
+gem 'aws-sdk' , '< 2.0'
 
 group :production do
 	gem 'rails_12factor'
